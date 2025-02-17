@@ -1,6 +1,6 @@
 # WhatsApp Automation with Selenium
 
-Este projeto automatiza o envio de mensagens no WhatsApp usando **Python, Selenium e WebDriver**. Ele lê os números de telefone e mensagens de um arquivo **Excel** e envia mensagens personalizadas para cada contato.
+Este projeto automatiza o envio de mensagens no WhatsApp usando **Python, Selenium e WebDriver**. Ele lê os números de telefone de um arquivo **Excel** e envia mensagens personalizadas de uma agenda para cada contato.
 
 ## 📌 Funcionalidades
 - 📤 Envio automatizado de mensagens para múltiplos contatos.
