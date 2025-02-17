@@ -23,7 +23,7 @@ driver = webdriver.Chrome(service=service, options=chrome_options)
 
 # Abrir WhatsApp Web
 driver.get("https://web.whatsapp.com")
-driver.delete_all_cookies()
+
 
 # Carregar TODAS as abas do Excel
 file_path = "C:/Users/XXXXXXXX/XXXXXX/XXXXXX/XXXXX/XXXX_XXXX.xlsx"
