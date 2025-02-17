@@ -10,7 +10,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 # Caminho do ChromeDriver
-caminho_driver = r"C:/Users/kikot/OneDrive/Documents/Whatsapp_auto/chromedriver-win64/chromedriver.exe"
+caminho_driver = r"C:/Users/XXXXXX/XXXXXXX/XXXXXXXXXXXX/chromedriver.exe"
 
 # Configurações do Chrome
 chrome_options = Options()
