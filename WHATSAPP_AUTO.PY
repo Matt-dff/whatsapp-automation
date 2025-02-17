@@ -88,7 +88,7 @@ for sheet_name, df in sheets.items():
             else:
                 formatted_class_name = class_name
 
-            # 🔹 Mensagem formatada
+            # 🔹 Mensagem formatada (Mensagem para receber no WHATSAPP)
             message = (
                 "*XXXXXXXXXXXXXXXXX*\n\n"
                 "VXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.\n\n"
