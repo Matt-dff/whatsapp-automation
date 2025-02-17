@@ -26,7 +26,7 @@ driver.get("https://web.whatsapp.com")
 driver.delete_all_cookies()
 
 # Carregar TODAS as abas do Excel
-file_path = "C:/Users/kikot/OneDrive/Documents/Whatsapp_auto/chromedriver-win64/planilha_carol.xlsx"
+file_path = "C:/Users/XXXXXXXX/XXXXXX/XXXXXX/XXXXX/XXXX_XXXX.xlsx"
 sheets = pd.read_excel(file_path, sheet_name=None, engine='openpyxl')  # Lê todas as abas
 
 def send_message(phone_number, message):
@@ -90,20 +90,10 @@ for sheet_name, df in sheets.items():
 
             # 🔹 Mensagem formatada
             message = (
-                "*Secretaria de Esportes de Barueri*\n\n"
-                "Você fez a PRÉ-MATRÍCULA no nosso sistema on-line. Para EFETIVÁ-LA, siga as orientações abaixo. Caso NÃO COMPAREÇA, perderá automaticamente a vaga.\n\n"
-                f"Turma: {formatted_class_name}\n\n"
-                f"1) Compareça no polo: {location}\n\n"
-                f"2) Data: {start_date}\n\n"
-                f"3) Nome do professor: {professor}\n\n"
-                "4)  Chegue 10 minutos antes do horário da aula.\n\n"
-                "5)  Preencha uma ficha de anamnese e questionário de saúde. Se tiver problemas de saúde, traga *ATESTADO MÉDICO* que comprove aptidão para a atividade física.\n\n"
-                "6)  Vá com roupas confortáveis (evite decotes e roupas curtas). Leve garrafinha de água e toalha.\n\n"
-                "7)  Este é um dia atípico devido ao acolhimento dos novos alunos e preenchimento do PAR-Q, que ocorrerá simultâneo à aula. Pedimos compreensão.\n\n"
-                "8) *IMPORTANTE:* Faltas devem ser comunicadas ao PROFESSOR RESPONSÁVEL. Trocas de horário, turma ou polo não são permitidas nos primeiros 30 dias, e serão analisadas apenas se houver vaga disponível.\n\n"
-                "*Até lá!*"
+                "*XXXXXXXXXXXXXXXXX*\n\n"
+                "VXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.\n\n"
+                f"XXXXXXXXXXXXXXXXXXXXX\n\n"
             )
-
             send_message(phone_number, message)
 
         except Exception as e:
