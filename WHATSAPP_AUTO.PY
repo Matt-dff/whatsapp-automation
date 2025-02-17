@@ -50,13 +50,13 @@ def send_message(phone_number, message):
 for sheet_name, df in sheets.items():
     print(f"📌 Processando aba: {sheet_name}")
 
-    for _, row in df.iterrows():
+    for _, row in df.iterrows(): #Escrever as colunas dentro das variaveis
         try:
-            name = row["Aluno"]
-            class_name = row["Turma"]
-            location = row["Local"]
-            professor = row["Professor"]
-            start_date = row["Data de Inicio"]
+            name = row["XXXXX"]
+            class_name = row["XXXX"]
+            location = row["XXXX"]
+            professor = row["XXXXX"]
+            start_date = row["XXXXX"]
 
             # 🔹 Ajustar formato da data para DD-MM-YYYY
             if isinstance(start_date, str):
